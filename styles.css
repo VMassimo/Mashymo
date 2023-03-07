@@ -1,46 +1,55 @@
-body{
-    background-color: #fad2c6;
-    background-image: url("/Users/massimovillareal/Desktop/FINALSEM/349/blog/pink background cap.webp") ;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-  
-
+body {
+  background-color: #fad2c6;
+  background-image: url(pink\ background\ cap.webp);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
-.topnav{
-    display: flex;
-    justify-content: space-evenly;  
-    align-items: center;
-    flex-direction:row;
-    margin-top: 20px;
-    border-bottom: 2px solid #313d65; 
-    padding-bottom: 5px;
-    cursor: pointer;
-    transition: transform 0.2s ease-in-out;
+.topnav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 20px;
+  border-bottom: 2px solid #313d65;
+  padding-bottom: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
 }
 
-a:hover{
+a:hover {
+  background-color: #313d65;
+  color: #fad2c6;
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
   color: #313d65;
-  transform: scale(1.25);
-
 }
 
-  
+.Mashymo {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 225%;
+  color: #313d65;
+  margin-left: 70px;
+  margin-top: 60px;
+}
 
-  a{
-      text-decoration: none;
-      font-family: 'Courier New', Courier, monospace;
-      font-size: 150%;
-      color: #313d65;
-      
-      
-  }
-
-  .Mashymo{
-    text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 150%;
-    color: #313d65;
-    margin-left: 40px;
-  }
-
+.Motto {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  margin-left: 70px;
+  margin-bottom: 5px;
+  color: #313d65;
+}
